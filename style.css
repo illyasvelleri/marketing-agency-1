@@ -120,7 +120,6 @@
 }
 #services .card{
     border-radius: 0px 0px 30px 30px;
-    padding: 5px;
 }
 #services .card img{
     border-radius: 0px 0px 30px 30px;
@@ -150,6 +149,9 @@ span{
 #about .btn:hover{
     background: var(--violet-500);
     color: var(--violet-100);
+}
+#portfolio .card{
+    border: none;
 }
 #testimonials .carousel-inner{
     display:flex;
