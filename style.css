@@ -167,11 +167,15 @@ span{
     width: 50px;
     border-radius: 50%;
     background: var(--violet-500);
+    color: var(--violet-100);
     text-align: center;
     margin: 2px;
 }
 #contact form a i{
-    color: var(--violet-100);
     font-size: 18px;
     line-height: 35px;
+}
+#contact form a:hover{
+    background: var(--violet-100);
+    color: var(--violet-500);
 }
